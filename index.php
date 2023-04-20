@@ -18,7 +18,7 @@
         <style>
             html, body {
                 height: 100%;
-                background-color: black;
+                background-color: #5611b2;
             }
 
             body {
@@ -71,7 +71,7 @@
                     $server_settings['port'] = "30120"; // Basic port 30120 olmalı (eğer değiştirilmediyse)
                     $server_settings['max_slots'] = 64; // Max Player Slot (Varsayılan 64)
                     /*----------------------------------------------------------------*/
-                    print "<div style='background-color: #f2f2f2; border: 4px double black; border-radius: 5px; width: 300px; padding: 2px; border: 4px double black;'>";
+                    print "<div style='background-color: #9b79cc; border: 4px double #7f3dd9; border-radius: 5px; width: 300px; padding: 2px;'>";
                     $content = json_decode(file_get_contents("http://".$server_settings['ip'].":".$server_settings['port']."/info.json"), true);
                     $img_d64 = $content['icon'];
                     if($content):
