@@ -88,6 +88,8 @@
                     endif;
                     print "<br/><hr/><p align='center'><strong>Status: $SRV_STATUS</strong></p></div>";
                     ?>
+
+                        <br/><hr/><p align='center'><strong>Discord: </strong> <a href="https://discord.gg/x85xvDskTc">HERE</a> </p></div>
                 </div>
             </div>
 		</div>
