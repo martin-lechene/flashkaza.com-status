@@ -65,11 +65,11 @@
             <div class="content">
                 <div class="info"><br />
                     <?php
-                    /*-----------------------[ AYARLAR ]------------------------------*/
-                    $server_settings['title'] = "FlashKaza RP"; // Display için sunucu adı
-                    $server_settings['ip'] = "138.201.52.27"; // Sunucu bağlantısı için IP adresi
-                    $server_settings['port'] = "30120"; // Basic port 30120 olmalı (eğer değiştirilmediyse)
-                    $server_settings['max_slots'] = 64; // Max Player Slot (Varsayılan 64)
+                    /*-----------------------[ CONFIG ]------------------------------*/
+                    $server_settings['title'] = "FlashKaza RP";
+                    $server_settings['ip'] = "138.201.52.27";
+                    $server_settings['port'] = "30120";
+                    $server_settings['max_slots'] = 64;
                     /*----------------------------------------------------------------*/
                     print "<div style='background-color: #9b79cc; border: 4px double #7f3dd9; border-radius: 5px; width: 300px; padding: 2px;'>";
                     $content = json_decode(file_get_contents("http://".$server_settings['ip'].":".$server_settings['port']."/info.json"), true);
@@ -89,7 +89,7 @@
                     print "<br/><hr/><p align='center'><strong>Status: $SRV_STATUS</strong></p></div>";
                     ?>
 
-                        <br/><hr/><p align='center'><strong>Discord: </strong> <a href="https://discord.gg/x85xvDskTc">HERE</a> </p></div>
+                        <br/><hr/><p align='center'><strong>Discord: </strong> <a href="https://discord.flashkaza.com/">HERE</a> </p></div>
                 </div>
             </div>
 		</div>
