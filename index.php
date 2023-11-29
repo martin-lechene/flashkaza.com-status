@@ -66,10 +66,10 @@
                 <div class="info"><br />
                     <?php
                     /*-----------------------[ CONFIG ]------------------------------*/
-                    $server_settings['title'] = "FlashKaza RP";
-                    $server_settings['ip'] = "138.201.52.27";
-                    $server_settings['port'] = "30120";
-                    $server_settings['max_slots'] = 64;
+                    $server_settings['title'] = "[YOUR_TITLE_WEBSITE";
+                    $server_settings['ip'] = "[YOUR IP SERVER]";
+                    $server_settings['port'] = "[YOUR LISTENING PORT]";
+                    $server_settings['max_slots'] = "[NUMBER SLOT];
                     /*----------------------------------------------------------------*/
                     print "<div style='background-color: #9b79cc; border: 4px double #7f3dd9; border-radius: 5px; width: 300px; padding: 2px;'>";
                     $content = json_decode(file_get_contents("http://".$server_settings['ip'].":".$server_settings['port']."/info.json"), true);
